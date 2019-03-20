@@ -1,0 +1,825 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,latin-ext');
+
+/*MAIN PAGE*/
+
+body,
+html {
+    font-family: 'Roboto', sans-serif !important;
+    overflow-x: hidden;
+}
+
+
+li {
+    display: inline;
+}
+
+button {
+    outline: none !important;
+    cursor: pointer;
+}
+
+nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1000;
+
+
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #49753e;
+    transition: 0.5s;
+}
+
+nav ul {
+    padding-top: 20px;
+}
+
+nav ul li {
+    font-size: 18px;
+    font-weight: 400;
+    color: #73b454;
+    margin-right: 4.5%;
+}
+
+nav ul li:nth-child(6) {
+    margin-right: 0;
+}
+
+nav img {
+    width: 170px;
+}
+
+.nav_contacts {
+    text-align: center;
+}
+
+.nav_contacts a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #404040;
+}
+
+.nav_contacts p {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+    color: #404040;
+}
+
+
+
+
+/*Offer*/
+
+.block1 {
+    background: url(../img/block1_background.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+
+
+
+
+.block1 h1 {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+/*Our work*/
+
+.block1_work {}
+
+.block1_work h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.block1_work img {
+    width: 100%;
+}
+
+.block1_work p {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.block1_work .slide {
+    background-color: #fff;
+}
+
+.block1_work .slide_border {
+    border: 1px solid #dadada;
+}
+
+#tooth_icon {
+    width: 20px;
+    margin-right: 1%;
+}
+
+
+
+
+/*Services*/
+
+.block2 h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.service_area {
+    border: 3px solid rgba(129, 186, 82, 0.50);
+    margin-top: 70px;
+    padding: 10px;
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+
+
+}
+
+.service img {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.service h3 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.service p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+.service button {
+    width: 155px;
+    height: 45px;
+    border: 0px;
+    color: #fff;
+    background-color: #81ba52;
+    position: absolute;
+    bottom: 10px;
+}
+
+.service button:hover {
+    background-color: #49753e;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px rgba(102, 102, 102, 0.5);
+}
+
+.button-correction {
+    margin-top: 25px;
+}
+
+hr {
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+.block3 {
+    margin-bottom: 70px;
+}
+
+.block3 h2 {
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.block3 img {
+    width: 100%;
+}
+
+.owl-carousel {}
+
+.block3 .slide {
+    background-color: #fff;
+    overflow: hidden;
+    width: 250px;
+}
+
+
+
+.block3 .slide_border {
+    border: 1px solid #dadada;
+}
+
+.slide_border_img {
+    width: 250px !important;
+    overflow: hidden;
+}
+
+.block3 .slide img {
+
+    overflow: hidden;
+/*    height: 250px;*/
+
+}
+
+.block3 .slide:hover {
+    cursor: pointer;
+    box-shadow: 0px 15px 15px rgba(102, 102, 102, 0.5);
+    transition: 0.7s;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.block3 .slide p {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+/*Feedback*/
+
+.block4 {
+    background-color: #81ba52;
+}
+
+.block4 h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.text {
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.block4 span {
+    font-style: italic;
+}
+
+/*Address*/
+
+.block5 h2 {
+    font-size: 50px;
+    color: #404040;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+/*footer*/
+
+footer {
+    padding-top: 30px;
+    background-color: #404040;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+footer button {
+    width: 150px;
+    height: 40px;
+    background-color: #73b454;
+    border: 0px;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+
+footer button:hover {
+    width: 170px;
+    height: 45px;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.whatsapp_icon {
+    width: 25px;
+    padding-left: 5px;
+}
+
+.smartphone_icon {
+    width: 25px;
+    padding-left: 5px;
+}
+
+.old_tel_icon {
+    width: 25px;
+    padding-left: 5px;
+}
+
+.clock_icon {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bottom {
+    background-color: #313131;
+    height: 80px;
+}
+
+.bottom p {
+    padding-top: 40px;
+}
+
+.contacts {
+    padding-left: 5%;
+}
+
+.time {
+    padding-left: 13.9%;
+}
+
+.social {
+    margin-left: auto;
+    padding-top: 20px;
+}
+
+.social a {
+    cursor: pointer;
+    padding-left: 30%;
+}
+
+
+/*ABOUT US*/
+
+.block1_about {
+    background: url(../img/about_us_background.png) center;
+    background-size: cover;
+}
+
+.block1_about h1 {
+    padding-top: 400px;
+    padding-bottom: 300px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+/*PRICE LIST*/
+
+.block1_price {
+    background: url(../img/price_background.png) center;
+    background-size: cover;
+
+}
+
+.block1_price h1 {
+    padding-top: 400px;
+    padding-bottom: 300px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.block2_price {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.block2_price table {
+    width: 100%;
+}
+
+.table_right {
+    text-align: right;
+    width: 100px;
+
+}
+
+td {
+    font-size: 24px;
+    font-style: italic;
+    padding-bottom: 45px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/*SERVICES*/
+
+.block1_therapy {
+    background: url(../img/therapy.png) center;
+    background-size: cover;
+
+}
+
+.block1_therapy h1 {
+    padding-top: 400px;
+    padding-bottom: 300px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.block1_service_text {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block1_service_text h3 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.block1_service_text .right_image {
+    float: right;
+    width: 30%;
+
+}
+
+.block1_service_text .left_image {}
+
+.block1_service_text p {
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.block1_aesthetics {
+    background: url(../img/aesthetics_bg.png) center;
+    background-size: cover;
+
+}
+
+.block1_aesthetics h1 {
+    padding-top: 400px;
+    padding-bottom: 300px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.block1_orthodontics {
+    background: url(../img/orthodontics_bg.png) center;
+    background-size: cover;
+
+}
+
+.block1_orthodontics h1 {
+    padding-top: 400px;
+    padding-bottom: 300px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.block1_prosthetics {
+    background: url(../img/prosthetics_bg.png) center;
+    background-size: cover;
+
+}
+
+.block1_prosthetics h1 {
+    padding-top: 400px;
+    padding-bottom: 300px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.block1_surgery {
+    background: url(../img/surgery_bg.png) center;
+    background-size: cover;
+
+}
+
+.block1_surgery h1 {
+    padding-top: 400px;
+    padding-bottom: 300px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.block1_implantation {
+    background: url(../img/implantation_bg.png) center;
+    background-size: cover;
+
+}
+
+.block1_implantation h1 {
+    padding-top: 400px;
+    padding-bottom: 300px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*Mobile Adaptation*/
+
+@media(max-width: 1210px) {
+
+    nav ul li {
+        font-size: 16px;
+        margin-right: 3.5%;
+    }
+
+    .nav_contacts a {
+        font-size: 22px;
+    }
+
+    .button-correction2 {
+        margin-top: 25px;
+    }
+    .social a {
+        padding-left: 25%;
+    }
+
+}
+
+@media(max-width: 1010px) {
+    .social a {
+        padding-left: 30%;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+    .time {
+        display: none;
+    }
+    .desktop_menu {
+        display: none;
+    }
+    .nav_contacts {
+        display: none;
+    }
+
+    .hamburger {
+        display: block !important;
+    }
+
+    .service_area {
+        min-height: 620px;
+    }
+
+}
+
+@media(max-width: 770px) {
+    .service_area {
+        min-height: 530px;
+    }
+}
+
+@media(max-width: 560px) {
+    .social a {
+        padding-left: 20%;
+    }
+
+    .sign {
+        font-size: 14px;
+    }
+
+    .block1 h1 {
+        font-size: 45px;
+    }
+
+    .block1_h1 {
+        font-size: 45px !important;
+    }
+}
+
+@media(max-width: 450px) {
+    footer p {
+        font-size: 14px;
+    }
+
+    .sign {
+        font-size: 10px;
+    }
+
+    .block1 h1 {
+        font-size: 35px;
+    }
+
+    .block1_h1 {
+        font-size: 35px !important;
+    }
+    .block1_service_text .right_image {
+        width: 100%;
+    }
+    .block1_service_text h3 {
+        font-size: 24px;
+    }
+    td {
+        font-size: 20px;
+    }
+
+
+}
+
+
+@media(max-width: 400px) {
+    .social a {
+        padding-left: 15%;
+    }
+    .address {
+        margin-right: 50%;
+        margin-left: 30%;
+        margin-bottom: 50px;
+    }
+    td {
+        font-size: 18px;
+    }
+    nav img {
+        width: 150px;
+    }
+}
+
+@media(max-width: 370px) {
+    .block1 h1 {
+        font-size: 30px;
+    }
+
+    .block1_h1 {
+        font-size: 30px !important;
+    }
+    .block1_service_text h3 {
+        font-size: 20px;
+    }
+
+    .social a img {
+        width: 40px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+
+    td {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 330px) {
+    footer p {
+        font-size: 10px;
+    }
+    .social a img {
+        width: 35px;
+    }
+    td {
+        font-size: 14px;
+    }
+}
+
+/*HAMBURGER MENU*/
+
+/*Hamburger menu*/
+
+#ham {
+    display: none;
+    position: fixed;
+    right: 20px;
+    top: 60px;
+}
+
+.hamburger {
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/hamburger.png);
+    background-color: transparent;
+    position: fixed;
+    right: 0%;
+    top: 1%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger ul {
+    width: 50%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+input[type="checkbox"]:checked + .hamburger {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(102, 102, 102, 0.9);
+    right: 0;
+    top: 0;
+    background-image: none;
+    z-index: 9999;
+}
+
+input[type="checkbox"]:disabled + .hamburger ul li {
+    display: none;
+
+}
+
+.hamburger ul li {
+    display: block;
+    color: #fff;
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.hamburger ul li:hover {
+    background-color: #73b454;
+    transition: 1s;
+}
+
+
+/*Call Plugin*/
+
+.call_me {
+    margin-top: 5%;
+    margin-left: 5%;
+    position: fixed;
+    width: 80px;
+}
