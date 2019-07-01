@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: http://delta-stom.kz/sitemap.xml
