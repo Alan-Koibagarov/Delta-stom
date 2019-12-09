@@ -449,6 +449,10 @@ footer a:hover {
 
 }
 
+.table_left {
+	width: 70%;
+}
+
 td {
     font-size: 24px;
     font-style: italic;
